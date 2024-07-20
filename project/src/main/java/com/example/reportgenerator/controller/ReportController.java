@@ -16,10 +16,11 @@ public class ReportController {
     @Autowired
     private ReportService reportService;
 
-    @PostMapping("/generate")
+    @PostMapping("/generate") // define POST route
     public String generateReports(@RequestBody MultipartFile  inputFile,
                                   @RequestBody MultipartFile referenceFile) throws Exception {
-        System.out.println("generating call ed reports");
+        
+        // Call services to process CSV files
         reportService.processCSVFiles(inputFile, referenceFile);
         return "Reports generated successfully!";
     }
