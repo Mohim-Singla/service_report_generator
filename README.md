@@ -68,6 +68,15 @@ To run the application locally, use:
    - Parse and process input and reference data.
    - Apply transformation rules to derive output fields.
    - Write the transformed data to `output.csv`.
+#### Sample Files:
+1. `input.csv`
+<img width="753" alt="Screenshot 2024-07-21 at 12 00 35 PM" src="https://github.com/user-attachments/assets/f9e457bc-a61e-417e-9a37-1563b9959c94">
+
+2. `reference.csv`
+<img width="799" alt="Screenshot 2024-07-21 at 12 00 42 PM" src="https://github.com/user-attachments/assets/a73c5f80-4a2a-47ff-b220-0d7bacdce128">
+
+3. `output.csv`
+<img width="997" alt="Screenshot 2024-07-21 at 12 00 54 PM" src="https://github.com/user-attachments/assets/009480a2-ac85-4709-83f0-befe81ff6173">
 
 ### Configuration
 
