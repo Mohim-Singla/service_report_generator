@@ -30,35 +30,35 @@ src/main/java
 
 1. **Clone the repository:**
 
-   ```
-        git clone https://github.com/Mohim-Singla/service_report_generator
-        cd report-generator
-   ```
+```
+git clone https://github.com/Mohim-Singla/service_report_generator
+cd report-generator
+```
 
 ### Build and Run the Project
 
 To build the project, run the following command:
 
-    ```
-        mvn clean install
-    ```
+```
+mvn clean install
+```
 
 To run the application locally, use:
-    ```
-        mvn spring-boot:run
-    ```
+```
+mvn spring-boot:run
+```
 
 ### Usage
 
 #### Upload Input and Reference CSV Files
 
 1. Use the API endpoint to upload `input.csv` and `reference.csv` files.
-    ```
-        // Sample cURL:
-        curl --location 'http://localhost:8080/api/reports/generate' \
+```
+// Sample cURL:
+            curl --location 'http://localhost:8080/api/reports/generate' \
             --form 'inputFile=@"/Users/mohim.singla/Desktop/input.csv"' \
             --form 'referenceFile=@"/Users/mohim.singla/Desktop/referance.csv"'
-    ```
+```
 2. After uploading files, initiate report generation.
 
 #### Generate Reports
