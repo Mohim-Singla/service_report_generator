@@ -16,12 +16,15 @@ The Report Generator Application is built using Spring Boot to process input and
 - Maven (for dependency management)
 
 #### File Structure
+
+```
 src/main/java
             └── com.example.reportgenerator
                                     ├── controller       // Contains controller classes
                                     ├── model            // Contains data model classes
                                     ├── service          // Contains service classes
                                     └── utils            // Contains utility classes, e.g., FileStorageService
+```
 
 #### Setup Instructions
 
